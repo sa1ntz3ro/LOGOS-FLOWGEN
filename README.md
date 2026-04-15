@@ -1,2 +1,2 @@
 # LOGOS-FLOWGEN
-I nletBC velocity field generator
+Inlet BC velocity field generator
