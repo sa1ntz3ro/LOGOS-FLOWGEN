@@ -61,34 +61,34 @@ You will be prompted for:
 Laminar example:
 
 ```bash
-python pipe_profile_generator_LOGOS.py ^
-  --profile-model laminar ^
-  --re 1000 ^
-  --diameter 0.05 ^
-  --rho 1.2 ^
-  --mu 0.001 ^
-  --direction X ^
-  --cells-diameter 40 ^
-  --target-yplus 1 ^
-  --growth-factor 1.1 ^
+python pipe_profile_generator_LOGOS.py
+  --profile-model laminar
+  --re 1000
+  --diameter 0.05
+  --rho 1.2
+  --mu 0.001
+  --direction X
+  --cells-diameter 40
+  --target-yplus 1
+  --growth-factor 1.1
   --output pipe_profile.csv
 ```
 
 Turbulent log-law example (with roughness):
 
 ```bash
-python pipe_profile_generator_LOGOS.py ^
-  --profile-model turbulent-loglaw ^
-  --re 100000 ^
-  --diameter 0.05 ^
-  --rho 1.2 ^
-  --mu 0.001 ^
-  --roughness 1e-5 ^
-  --friction-model auto ^
-  --direction X ^
-  --cells-diameter 60 ^
-  --target-yplus 1 ^
-  --growth-factor 1.15 ^
+python pipe_profile_generator_LOGOS.py
+  --profile-model turbulent-loglaw
+  --re 100000
+  --diameter 0.05
+  --rho 1.2
+  --mu 0.001
+  --roughness 1e-5
+  --friction-model auto
+  --direction X
+  --cells-diameter 60
+  --target-yplus 1
+  --growth-factor 1.15
   --output pipe_profile.csv
 ```
 
